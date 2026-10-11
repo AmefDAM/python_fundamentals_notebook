@@ -1,150 +1,173 @@
-# Python Fundamentals 🐍
+# Python Fundamentals Notebook
 
-My personal Python reference notebook, built while learning Python and solving Codewars katas.
+A learning and reference repository covering Python fundamentals through practical examples and Codewars exercises.
 
-This repository contains notes, examples, and exercises organized by topic. The goal is to build a structured reference that I can revisit whenever I need to review a concept or solve a new problem.
+The goal is to document the Python concepts I use when solving problems, understand how they work, and build a personal reference that I can consult and expand as I progress.
+
+## Objectives
+
+- Strengthen my understanding of Python fundamentals through practical examples.
+- Organize concepts by topic to make them easier to find and review.
+- Identify recurring programming patterns used to solve problems.
+- Connect the concepts I study with real Codewars solutions.
+- Document lessons learned and potential improvements for each solution.
+
+## Related Resources
+
+This repository complements my theoretical notes:
+
+- [Python Fundamentals NB](https://github.com/AmefDAM/python-fundamentals-nb): Notes based on Python books and documentation, covering theoretical concepts and advanced topics. Originally based on the work of [dfleta](https://github.com/dfleta), particularly the [original repository](https://github.com/dfleta/python-fundamentals-nb). This repository is maintained as an independent copy for personal learning and note-taking.
+
+This repository focuses on the practical application of concepts, their organization, and their connection to solved exercises.
 
 ## Table of Contents
 
-### 01. Python Basics
+### 01. Basics 🚧
 
-Fundamental concepts of the Python language.
+Fundamental language concepts: variables, data types, assignment, and type conversion.
 
-* [Variables and Assignment](01_basics/variables_and_assignment.ipynb)
-* [Data Types](01_basics/data_types.ipynb)
-* [Type Conversion](01_basics/type_conversion.ipynb)
-* [Expressions](01_basics/expressions.ipynb)
+- [Variables and Assignment](01_basics/variables_and_assignment.ipynb)
+- [Data Types](01_basics/data_types.ipynb)
+- [Type Conversion](01_basics/type_conversion.ipynb)
 
-### 02. Operators
+### 02. Operators 🚧
 
-Operators used to perform calculations, comparisons, and logical operations.
+Arithmetic operations, comparisons, logical operations, and membership testing.
 
-* [Arithmetic Operators](02_operators/arithmetic_operators.ipynb)
-* [Comparison Operators](02_operators/comparison_operators.ipynb)
-* [Logical Operators](02_operators/logical_operators.ipynb)
-* [Assignment Operators](02_operators/assignment_operators.ipynb)
-* [Membership Operators](02_operators/membership_operators.ipynb)
+- [Arithmetic Operators](02_operators/arithmetic_operators.ipynb)
+- [Comparison Operators](02_operators/comparison_operators.ipynb)
+- [Logical Operators](02_operators/logical_operators.ipynb)
+- [Assignment Operators](02_operators/assignment_operators.ipynb)
+- [Membership Operators](02_operators/membership_operators.ipynb)
 
-### 03. Control Flow
+### 03. Control Flow 🚧
 
-Statements that control the execution of a program.
+Statements and structures that control the order in which a program executes.
 
-* [Conditionals: if, elif, else](03_control_flow/conditionals.ipynb)
-* [For Loops](03_control_flow/for_loops.ipynb)
-* [While Loops](03_control_flow/while_loops.ipynb)
-* [Loop Control: break, continue, pass](03_control_flow/loop_control.ipynb)
-* [Early Returns](03_control_flow/early_returns.ipynb)
+- [Conditionals](03_control_flow/conditionals.ipynb)
+- [`for` Loops](03_control_flow/for_loops.ipynb)
+- [`while` Loops](03_control_flow/while_loops.ipynb)
+- [Loop Control](03_control_flow/loop_control.ipynb)
+- [Early Returns](03_control_flow/early_returns.ipynb)
 
-### 04. Built-in Functions
+### 04. Built-in Functions 🚧
 
-Python functions available without importing additional modules.
+Functions provided by Python for working with data and performing common operations.
 
-* [len()](04_built_ins/len.ipynb)
-* [range()](04_built_ins/range.ipynb)
-* [int()](04_built_ins/int.ipynb)
-* [str()](04_built_ins/str.ipynb)
-* [set()](04_built_ins/set.ipynb)
-* [round()](04_built_ins/round.ipynb)
-* [sum()](04_built_ins/sum.ipynb)
-* [min(), max(), abs()](04_built_ins/min_max_abs.ipynb)
-* [enumerate()](04_built_ins/enumerate.ipynb)
-* [any(), all()](04_built_ins/any_all.ipynb)
-* [sorted()](04_built_ins/sorted.ipynb)
-* [type()](04_built_ins/type.ipynb)
+- [`len()`](04_built_ins/len.ipynb)
+- [`range()`](04_built_ins/range.ipynb)
+- [`int()`](04_built_ins/int.ipynb)
+- [`str()`](04_built_ins/str.ipynb)
+- [`set()`](04_built_ins/set.ipynb)
+- [`round()`](04_built_ins/round.ipynb)
 
-### 05. Strings
+### 05. Strings 🚧
 
-Working with text, characters, and string operations.
+Operations and techniques for iterating over, inspecting, transforming, and building strings.
 
-* [String Fundamentals](05_strings/strings.ipynb)
-* [String Methods](05_strings/string_methods.ipynb)
-* [String Formatting](05_strings/string_formatting.ipynb)
-* [String Iteration](05_strings/string_iteration.ipynb)
-* [String Immutability](05_strings/string_immutability.ipynb)
+- [String Fundamentals](05_strings/strings.ipynb)
+- [String Methods](05_strings/string_methods.ipynb)
+- [String Formatting](05_strings/string_formatting.ipynb)
 
-### 06. Lists
+### 06. Lists 🚧
 
-Creating, accessing, modifying, and processing lists.
+Creating, accessing, iterating over, and manipulating lists.
 
-* [List Fundamentals](06_lists/lists.ipynb)
-* [List Methods](06_lists/list_methods.ipynb)
-* [List Comprehensions](06_lists/list_comprehensions.ipynb)
-* [List Iteration](06_lists/list_iteration.ipynb)
+- [List Fundamentals](06_lists/lists.ipynb)
+- [List Methods](06_lists/list_methods.ipynb)
+- [List Comprehensions](06_lists/list_comprehensions.ipynb)
 
-### 07. Sets
+### 07. Sets 🚧
 
-Working with collections of unique elements.
+Collections of unique elements and operations performed on sets.
 
-* [Set Fundamentals](07_sets/sets.ipynb)
-* [Set Operations](07_sets/set_operations.ipynb)
+- [Set Fundamentals](07_sets/sets.ipynb)
 
-### 08. Functions
+### 08. Dictionaries 🚧
 
-Defining reusable blocks of code and understanding how they work.
+Data structures that store key-value pairs.
 
-* [Function Basics](08_functions/function_basics.ipynb)
-* [Return Values](08_functions/return_values.ipynb)
-* [Scope](08_functions/scope.ipynb)
-* [Function Design](08_functions/function_design.ipynb)
+- [Dictionary Fundamentals](08_dictionaries/dictionaries.ipynb)
+- [Dictionary Methods](08_dictionaries/dictionary_methods.ipynb)
 
-### 09. Modules
+### 09. Functions 🚧
 
-Importing and using Python modules.
+Function definitions, parameters, arguments, and return values.
 
-* [Imports](09_modules/imports.ipynb)
-* [Math Module](09_modules/math.ipynb)
+- [Function Fundamentals](09_functions/function_basics.ipynb)
+- [Arguments](09_functions/arguments.ipynb)
+- [Return Values](09_functions/return_values.ipynb)
+- [Scopes and the LEGB Rule](09_functions/scope_and_legb.ipynb)
 
-### 10. Algorithms and Patterns
+### 10. Modules and Exceptions 🚧
 
-Reusable problem-solving techniques applied to programming challenges.
+Importing modules and handling errors and exceptions.
 
-* [Counters and Accumulators](10_algorithms/counters_and_accumulators.ipynb)
-* [Number Theory](10_algorithms/number_theory.ipynb)
-* [Digit Manipulation](10_algorithms/digit_manipulation.ipynb)
-* [Frequency Counting](10_algorithms/frequency_counting.ipynb)
-* [Palindromes](10_algorithms/palindromes.ipynb)
-* [Conditional Logic](10_algorithms/conditional_logic.ipynb)
+- [Modules and Imports](10_modules_and_errors/imports.ipynb)
+- [`math` Module](10_modules_and_errors/math.ipynb)
+- [Exceptions](10_modules_and_errors/exceptions.ipynb)
 
-### 11. Codewars
+### 11. Algorithms and Patterns 🚧
 
-Solutions, practice, and lessons learned from coding challenges.
+Reusable techniques for solving problems by combining Python concepts.
 
-* [Kata Index](11_codewars/kata_index.md)
-* [Reflections and Lessons Learned](11_codewars/reflections.md)
+- [Counters and Accumulators](11_algorithms/counters_and_accumulators.ipynb)
+- [Number Theory and Divisibility](11_algorithms/number_theory.ipynb)
+- [Digit Manipulation](11_algorithms/digit_manipulation.ipynb)
+- [Frequency Counting](11_algorithms/frequency_counting.ipynb)
+- [Palindromes](11_algorithms/palindromes.ipynb)
 
----
+### 12. Advanced Topics 🚧
 
-## 🗺️ Concept Map
+Topics to be added as I progress in learning the language.
 
-The repository is organized into three complementary levels:
+- [Generators](12_advanced/generators.ipynb)
+- [Functional Programming](12_advanced/functional_programming.ipynb)
 
-1. **Language fundamentals:** syntax, data types, operators, control flow, built-ins, and functions.
-2. **Data structures and modules:** strings, lists, sets, and imported libraries.
-3. **Algorithms and practice:** combining the concepts to solve problems and improve existing solutions.
+### 13. Codewars 🚧
 
-Each concept should have one main reference document. Other documents should link to that explanation instead of duplicating it.
+An index of solved exercises, the concepts applied, and the lessons learned.
 
-For example, a string manipulation kata may involve string methods, built-in functions, membership operators, loops, and conditional statements.
+- [Kata Index](13_codewars/kata_index.md)
+- [Reflections and Lessons Learned](13_codewars/reflections.md)
+
+## Concept Map
+
+The content is organized to support a progressive learning path:
+
+1. **Basics:** variables, data types, and type conversion.
+2. **Operators:** performing operations and building expressions.
+3. **Control Flow:** conditionals and loops.
+4. **Collections:** strings, lists, sets, and dictionaries.
+5. **Functions and Modules:** organizing and reusing code.
+6. **Algorithms:** combining concepts to solve problems.
+7. **Codewars:** applying concepts in practice and analyzing solutions.
+
+This sequence is a guideline rather than a strict learning path. Each concept can be consulted independently whenever needed.
 
 ## How to Use This Repository
 
-1. Learn a new Python concept and document it in the relevant topic.
-2. Add clear explanations and small, runnable examples.
-3. Practise the concept in a Codewars kata.
-4. Add the kata to the index and link the concepts it uses.
-5. Record alternative solutions, mistakes, and lessons learned.
-6. Update existing notes as my understanding improves.
+Each notebook documents a specific topic through examples and explanations.
 
-## Conventions
+When solving a Codewars exercise, I:
 
-* Use descriptive filenames in `snake_case`.
-* Keep theory and examples in their corresponding topic folders.
-* Use notebooks (`.ipynb`) for explanations and interactive practice.
-* Use Python files (`.py`) for standalone kata solutions when appropriate.
-* Use Markdown (`.md`) for indexes, summaries, and general documentation.
-* Prefer cross-references over duplicated explanations.
-* Distinguish concepts already practised from concepts planned for future study.
+1. Identify the Python concepts I need.
+2. Consult the relevant notebooks.
+3. Analyze how those concepts work together in the solution.
+4. Add the exercise to the kata index.
+5. Record potential improvements and relevant lessons learned.
 
-## Goal
+The goal is not merely to store solutions, but to understand them and reuse what I learn when solving future problems.
 
-Build a clear, practical, and continuously growing reference for Python fundamentals that supports both learning and problem-solving.
+## Organization Principles
+
+- Each notebook should focus on a clearly defined concept or topic.
+- Fundamental concepts are documented in their respective sections.
+- Algorithmic patterns are studied separately to show how different concepts can be combined.
+- Codewars solutions are linked to the topics they use.
+- More extensive theoretical material can be found in [Python Fundamentals NB](https://github.com/AmefDAM/python-fundamentals-nb).
+- Notebooks will be expanded gradually as new concepts and learning needs arise.
+
+---
+
+*Personal repository for learning and referencing Python.*
